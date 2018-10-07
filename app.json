@@ -1,7 +1,7 @@
 {
   "name": "Craft Heroku Test Project",
   "description": "A boilerplate to have a quick start with a Craft3 project + hosting",
-  "repository": "https://github.com/edenspiekermann/craft3-heroku-starterkit/",
+  "repository": "https://github.com/portfolioris/craft-heroku",
   "keywords": ["craftcms"],
   "env": {
     "ENVIRONMENT": {
