@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "121f6f023bc6bf0a4a423b4ffb521951",
+    "content-hash": "920691f6814f4a68a67e95075d1a87ff",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -986,6 +986,62 @@
                 "html"
             ],
             "time": "2018-02-23T01:58:20+00:00"
+        },
+        {
+            "name": "fruitstudios/linkit",
+            "version": "1.1.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fruitstudios/craft-linkit/zipball/c7845d07f093a9b30088cbe42e3e6b199f4c160f",
+                "reference": "c7845d07f093a9b30088cbe42e3e6b199f4c160f",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.2"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Linkit",
+                "handle": "linkit",
+                "hasCpSettings": false,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/fruitstudios/craft-linkit/master/CHANGELOG.md",
+                "class": "fruitstudios\\linkit\\Linkit",
+                "components": {
+                    "services": "fruitstudios\\linkit\\services\\LinkitService"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "fruitstudios\\linkit\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Fruit Studios",
+                    "homepage": "https://fruitstudios.co.uk"
+                }
+            ],
+            "description": "One link field to rule them all.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "fruit studios",
+                "link it",
+                "linkit"
+            ],
+            "support": {
+                "email": "hi@fruitstudios.co.uk",
+                "issues": "https://github.com/fruitstudios/craft-linkit/issues?state=open",
+                "source": "https://github.com/fruitstudios/craft-linkit",
+                "docs": "https://github.com/fruitstudios/craft-linkit"
+            },
+            "time": "2018-10-23T13:32:03+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

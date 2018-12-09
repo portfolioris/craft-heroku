@@ -29,7 +29,8 @@
     "timkelty/craft3-cloudinary": "^1.0",
     "tomdiggle/craft-gatekeeper": "^1.0",
     "markhuot/craftql": "1.1.0",
-    "craftcms/element-api": "2.5.4"
+    "craftcms/element-api": "2.5.4",
+    "fruitstudios/linkit": "1.1.4"
   },
   "autoload": {
     "psr-4": {
