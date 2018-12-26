@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "920691f6814f4a68a67e95075d1a87ff",
+    "content-hash": "656cf0936a61379b00d4ca2b717ab9ce",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -335,11 +335,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "3.0.32",
+            "version": "3.0.36",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/0bc53c9d10478acb32ba4d3af0c3d4e949dee920",
-                "reference": "0bc53c9d10478acb32ba4d3af0c3d4e949dee920",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/76b9d7b854a725771028d3bee928b56e6039325c",
+                "reference": "76b9d7b854a725771028d3bee928b56e6039325c",
                 "shasum": ""
             },
             "require": {
@@ -373,6 +373,9 @@
                 "yiisoft/yii2-queue": "2.1.0",
                 "yiisoft/yii2-swiftmailer": "^2.1.0",
                 "zendframework/zend-feed": "^2.8.0"
+            },
+            "conflict": {
+                "league/oauth2-client": "2.4.0"
             },
             "provide": {
                 "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*",
@@ -410,7 +413,7 @@
                 "docs": "https://github.com/craftcms/docs",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2018-11-20T18:44:56+00:00"
+            "time": "2018-12-18T20:33:23+00:00"
         },
         {
             "name": "craftcms/element-api",
@@ -753,21 +756,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "2.1.6",
+            "version": "2.1.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/0578b32b30b22de3e8664f797cf846fc9246f786",
-                "reference": "0578b32b30b22de3e8664f797cf846fc9246f786",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/709f21f92707308cdf8f9bcfa1af4cb26586521e",
+                "reference": "709f21f92707308cdf8f9bcfa1af4cb26586521e",
                 "shasum": ""
             },
             "require": {
                 "doctrine/lexer": "^1.0.1",
                 "php": ">= 5.5"
-            },
-            "require-dev": {
-                "dominicsayers/isemail": "dev-master",
-                "phpunit/phpunit": "^4.8.35||^5.7||^6.0",
-                "satooshi/php-coveralls": "^1.0.1"
             },
             "suggest": {
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
@@ -783,7 +781,6 @@
                     "Egulias\\EmailValidator\\": "EmailValidator"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -801,7 +798,7 @@
                 "validation",
                 "validator"
             ],
-            "time": "2018-09-25T20:47:26+00:00"
+            "time": "2018-12-04T22:38:24+00:00"
         },
         {
             "name": "elvanto/litemoji",
@@ -1151,27 +1148,25 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.4.2",
+            "version": "1.5.2",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
-                "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/9f83dded91781a01c63574e387eaa769be769115",
+                "reference": "9f83dded91781a01c63574e387eaa769be769115",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "psr/http-message": "~1.0"
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5"
             },
             "provide": {
                 "psr/http-message-implementation": "1.0"
             },
-            "require-dev": {
-                "phpunit/phpunit": "~4.0"
-            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
@@ -1182,7 +1177,6 @@
                     "src/functions_include.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1201,13 +1195,63 @@
             "keywords": [
                 "http",
                 "message",
+                "psr-7",
                 "request",
                 "response",
                 "stream",
                 "uri",
                 "url"
             ],
-            "time": "2017-03-20T17:10:46+00:00"
+            "time": "2018-12-04T20:46:45+00:00"
+        },
+        {
+            "name": "jungleminds/nethooks",
+            "version": "1.1.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JungleMinds/Craft_NetHooks/zipball/6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928",
+                "reference": "6c0a02a0afc97d6b83473fbe8fdfd7cff0f09928",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "nethooks",
+                "handle": "nethooks",
+                "hasCpSettings": true,
+                "hasCpSection": false,
+                "changelogUrl": "https://raw.githubusercontent.com/JungleMinds/Craft_NetHooks/master/CHANGELOG.md",
+                "class": "jungleminds\\nethooks\\Nethooks"
+            },
+            "autoload": {
+                "psr-4": {
+                    "jungleminds\\nethooks\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jungle Minds",
+                    "homepage": "https://jungleminds.com"
+                }
+            ],
+            "description": "Add Deploy hooks for Netlify",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "nethooks"
+            ],
+            "support": {
+                "docs": "https://github.com/JungleMinds/Craft_NetHooks/blob/master/README.md",
+                "issues": "https://github.com/JungleMinds/Craft_NetHooks/issues"
+            },
+            "time": "2018-09-18T08:33:47+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -1272,11 +1316,11 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.48",
+            "version": "1.0.49",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a6ded5b2f6055e2db97b4b859fdfca2b952b78aa",
-                "reference": "a6ded5b2f6055e2db97b4b859fdfca2b952b78aa",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a63cc83d8a931b271be45148fa39ba7156782ffd",
+                "reference": "a63cc83d8a931b271be45148fa39ba7156782ffd",
                 "shasum": ""
             },
             "require": {
@@ -1342,7 +1386,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2018-10-15T13:53:10+00:00"
+            "time": "2018-11-23T23:41:29+00:00"
         },
         {
             "name": "league/fractal",
@@ -1449,14 +1493,15 @@
         },
         {
             "name": "markhuot/craftql",
-            "version": "1.1.0",
+            "version": "1.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/markhuot/craftql/zipball/1781fcf2279fb0edd144c7d733edf21414296159",
-                "reference": "1781fcf2279fb0edd144c7d733edf21414296159",
+                "url": "https://api.github.com/repos/markhuot/craftql/zipball/b7508061b1d14e845a93334bdf50cae9a84eeb9c",
+                "reference": "b7508061b1d14e845a93334bdf50cae9a84eeb9c",
                 "shasum": ""
             },
             "require": {
+                "craftcms/cms": "^3.0.0",
                 "react/http": "^0.7",
                 "webonyx/graphql-php": "^0.11.0"
             },
@@ -1486,7 +1531,7 @@
                 "craft-plugin",
                 "craftcms"
             ],
-            "time": "2018-06-25T02:22:48+00:00"
+            "time": "2018-12-17T16:36:37+00:00"
         },
         {
             "name": "mikehaertl/php-shellcommand",
@@ -1790,6 +1835,36 @@
                 "speed"
             ],
             "time": "2018-09-28T09:44:10+00:00"
+        },
+        {
+            "name": "ralouphie/getallheaders",
+            "version": "2.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "reference": "5601c8a83fbba7ef674a7369456d12f1e0d0eafa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/getallheaders.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ralph Khattar",
+                    "email": "ralph.khattar@gmail.com"
+                }
+            ],
+            "description": "A polyfill for getallheaders.",
+            "time": "2016-02-11T07:05:27+00:00"
         },
         {
             "name": "react/cache",
@@ -2800,27 +2875,22 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.5.0",
+            "version": "v2.6.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6a5f676b77a90823c2d4eaf76137b771adf31323",
-                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a11dd39f5b6589e14f0ff3b36675d06047c589b1",
+                "reference": "a11dd39f5b6589e14f0ff3b36675d06047c589b1",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
                 "symfony/polyfill-ctype": "^1.8",
-                "symfony/polyfill-mbstring": "~1.0"
-            },
-            "require-dev": {
-                "psr/container": "^1.0",
-                "symfony/debug": "^2.7",
-                "symfony/phpunit-bridge": "^3.3"
+                "symfony/polyfill-mbstring": "^1.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -2831,7 +2901,6 @@
                     "Twig\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2858,7 +2927,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2018-07-13T07:18:09+00:00"
+            "time": "2018-12-16T10:36:48+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
