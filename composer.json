@@ -28,10 +28,11 @@
     "craftcms/redactor": "^2.1",
     "timkelty/craft3-cloudinary": "^1.0",
     "tomdiggle/craft-gatekeeper": "^1.0",
-    "markhuot/craftql": "1.1.0",
+    "markhuot/craftql": "1.2.1",
     "craftcms/element-api": "2.5.4",
     "fruitstudios/linkit": "1.1.4",
-    "jungleminds/nethooks": "1.1.2"
+    "jungleminds/nethooks": "1.1.2",
+    "sebastianlenz/linkfield": "1.0.15"
   },
   "autoload": {
     "psr-4": {
