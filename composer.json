@@ -33,7 +33,8 @@
     "fruitstudios/linkit": "1.1.9",
     "jungleminds/nethooks": "1.1.2",
     "sebastianlenz/linkfield": "1.0.17",
-    "verbb/comments": "1.1.1"
+    "verbb/comments": "1.1.1",
+    "ether/tags": "1.0.1"
   },
   "autoload": {
     "psr-4": {
