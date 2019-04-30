@@ -19,7 +19,7 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.1.15",
+    "craftcms/cms": "3.1.24",
     "vlucas/phpdotenv": "^2.4.0",
     "putyourlightson/craft-blitz": "^1.4",
     "nystudio107/craft-twigprofiler": "^1.0",
@@ -28,13 +28,13 @@
     "craftcms/redactor": "^2.1",
     "timkelty/craft3-cloudinary": "^1.0",
     "tomdiggle/craft-gatekeeper": "^1.0",
-    "markhuot/craftql": "1.3.1",
+    "markhuot/craftql": "1.3.2",
     "craftcms/element-api": "2.5.4",
-    "fruitstudios/linkit": "1.1.9",
+    "fruitstudios/linkit": "1.1.11",
     "jungleminds/nethooks": "1.1.2",
-    "sebastianlenz/linkfield": "1.0.17",
-    "verbb/comments": "1.1.1",
-    "ether/tags": "1.0.1"
+    "sebastianlenz/linkfield": "1.0.19",
+    "verbb/comments": "1.1.6",
+    "ether/tags": "1.0.2"
   },
   "autoload": {
     "psr-4": {
