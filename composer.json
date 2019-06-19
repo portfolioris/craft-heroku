@@ -19,7 +19,7 @@
     "rss": "https://craftcms.com/changelog.rss"
   },
   "require": {
-    "craftcms/cms": "3.1.24",
+    "craftcms/cms": "3.1.31",
     "vlucas/phpdotenv": "^2.4.0",
     "putyourlightson/craft-blitz": "^1.4",
     "nystudio107/craft-twigprofiler": "^1.0",
@@ -33,8 +33,8 @@
     "fruitstudios/linkit": "1.1.11",
     "jungleminds/nethooks": "1.1.2",
     "sebastianlenz/linkfield": "1.0.19",
-    "verbb/comments": "1.1.6",
-    "ether/tags": "1.0.2"
+    "verbb/comments": "1.1.7.1",
+    "ether/tags": "1.0.4"
   },
   "autoload": {
     "psr-4": {
