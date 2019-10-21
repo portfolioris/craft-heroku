@@ -33,7 +33,8 @@
     "sebastianlenz/linkfield": "1.0.19",
     "verbb/comments": "1.1.10",
     "ether/tags": "1.0.5",
-    "markhuot/craftql": "1.3.4"
+    "markhuot/craftql": "1.3.4",
+    "ext-imagick": "*"
   },
   "autoload": {
     "psr-4": {
