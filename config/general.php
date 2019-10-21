@@ -27,7 +27,7 @@ return [
       'securityKey' => getenv('SECURITY_KEY'),
 
         // headless
-        'headlessMode' => true
+//        'headlessMode' => true
     ],
 
     // Dev environment settings
