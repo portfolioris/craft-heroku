@@ -24,7 +24,6 @@
     "putyourlightson/craft-blitz": "^1.4",
     "nystudio107/craft-twigprofiler": "^1.0",
     "ext-mbstring": "*",
-    "ext-imagick": "*",
     "craftcms/redactor": "^2.1",
     "timkelty/craft3-cloudinary": "^1.0",
     "tomdiggle/craft-gatekeeper": "^1.0",
