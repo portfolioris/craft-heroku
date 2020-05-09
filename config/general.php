@@ -33,6 +33,7 @@ return [
     // Dev environment settings
     'dev' => [
       'devMode' => true, // Dev Mode (see https://craftcms.com/support/dev-mode)
+        'backupCommand' => getenv('BACKUP_COMMAND'),
     ],
 
     // Production environment settings
